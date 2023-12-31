@@ -3,12 +3,12 @@ Technologies Used
 MongoDB  /  Express /
 React  /   Redux  /   Node.js   /     Material-UI   /   CSS
 
-
+---------------------------------------------------------------------------
 
 
 supermarket shopping experience. Users can register, log in, browse products by category, add items to their cart, manage their cart, place orders
 
-
+---------------------------------------------------------------------------
 
 npm start
 Runs the app in the development mode.
