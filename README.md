@@ -1,2 +1,6 @@
 # Market
-Market   React , TS , MongoDB
+Technologies Used  
+MongoDB    Express.js
+React.js     Redux     Node.js        Material-UI      CSS
+
+
