@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "firstName": "mohamed",
+      "lastName": "washah",
+      "email": "washah.mo@gmail.com",
+      "idNumber": 222222,
+      "password": "admin",
+      "city": "ABU QUREINAT ",
+      "street": "5 shohom",
+      "role": "admin",
+      "__v": 0
+    },
+    {
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@gmail.com",
+      "idNumber": 789012,
+      "password": "admin",
+      "role": "admin"
+    }
+  ]
+}
