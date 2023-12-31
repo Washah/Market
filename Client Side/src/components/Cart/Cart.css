@@ -1,0 +1,24 @@
+.cartItems {
+  margin-top: -2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 104%;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.cartItems__empty {
+  margin-top: 1.5rem;
+}
+
+.marginLeft {
+  margin-left: 0.5rem;
+}
+
+.cartItems__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}

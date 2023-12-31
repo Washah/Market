@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: Josefin Sans;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueText {
+  color: rgb(30, 7, 199);
+}
+
+header {
+  height: 11.5vh;
+}
+
+main {
+  height: 88.5vh;
+}
+
+@media only screen and (min-width: 112.5em) {
+  header {
+    height: 8vh;
+  }
+
+  main {
+    height: 92vh;
+  }
+}
+
+@media only screen and (max-width: 87.5em) {
+  html {
+    font-size: 80%;
+  }
+}

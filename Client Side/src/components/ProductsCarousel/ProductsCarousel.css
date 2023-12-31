@@ -1,0 +1,26 @@
+.productsCarousel {
+  margin-top: 2rem;
+  width: 40rem;
+}
+
+.carouselContainer {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 130em) {
+  .productsCarousel {
+    width: 33rem;
+  }
+}
+
+@media only screen and (max-width: 112.5em) {
+  .productsCarousel {
+    width: 19rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .productsCarousel {
+    width: 15rem;
+  }
+}

@@ -1,0 +1,44 @@
+.Main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.Main > main,
+.Main > aside,
+.Main > section {
+  grid-column: span 1;
+}
+
+.Main > main,
+.Main > aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main > section {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 95em) {
+  .Main > section {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 75em) {
+  .Main {
+    grid-template-columns: 1fr;
+  }
+
+  .Main > main {
+    height: min-content;
+    width: 70%;
+    margin: 2rem auto;
+  }
+
+  .Main > section {
+    margin-top: 0;
+  }
+}

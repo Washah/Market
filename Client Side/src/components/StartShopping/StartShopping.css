@@ -1,0 +1,21 @@
+.startShopping-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  width: 80%;
+}
+
+.startShopping-card {
+  text-align: center;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.startShopping-container .startShopping-card {
+  background-color: #f7f7f7;
+}
+
+.startShopping-actions {
+  justify-content: center;
+}

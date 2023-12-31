@@ -1,0 +1,27 @@
+.login {
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 80%;
+  padding: 2rem;
+}
+
+.login__header--text {
+  padding-bottom: 1.5rem;
+}
+
+.login__form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.login__form--buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.login__registerLink {
+  margin: 2rem auto 0;
+  width: fit-content;
+}

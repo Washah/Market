@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  border-bottom: 2px solid rgb(103, 32, 180);
+  justify-content: space-between;
+  height: 11.5vh;
+  align-items: center;
+
+  @media only screen and (min-width: 112.5em) {
+    height: 8vh;
+  }
+}
+
+.navbar__logo img {
+  width: 25rem;
+  margin-left: 0.5rem;
+}
+
+.navbar__contact {
+  color: rgb(103, 32, 180);
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.navbar__username {
+  margin-top: -0.7rem;
+}
+
+@media only screen and (max-width: 68.47em) {
+  .navbar__logo img {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  .navbar__logo img {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .navbar__logo img {
+    width: 12rem;
+  }
+}
